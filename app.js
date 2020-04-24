@@ -36,8 +36,7 @@ window.addEventListener('load', () => {
         });
 
 
-        //} else {
-        //  h1.textContent = "hey this is not working because you didn't allow location";
+
     }
 
 });
