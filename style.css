@@ -5,37 +5,71 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    height: 60vh;
 }
 
-.location .temperature {
-    height: 50vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.container {
+    width: 90%;
+    margin: 2rem auto;
 }
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header {
+    font-size: 0.8rem;
+}
+
+.btn {
+    padding: 0.3rem 2.8rem;
+    background-color: green;
+    font-size: 0.8rem;
+}
+
+/*Showcase*/
+
+.location {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.location-timezone {
+    font-size: 1.0rem;
+    padding-bottom: 0.5rem;
+}
+
+.location-name {
+    font-size: 2.8rem;
+
+}
+
+/* Temperature-section */
 
 .temperature {
-    flex-direction: column;
+    display: flex;
+    /* justify-content: space-around; */
 }
 
 .degree-section {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+    padding-right: 8rem;
 }
 
-.degree-section span {
-    margin: 10px;
-    font-size: 30px;
+.temperature-degree {
+    font-size: 3.5rem;
+
 }
 
-.degree-section h2 {
-    font-size: 40px;
+.temperature-description-0 {
+    font-size: 1.0rem;
+}
+
+.temperature-name {
+    font-size: 1.0rem;
+}
+
+.temperature-description {
+    font-size: 1.5rem;
 }
