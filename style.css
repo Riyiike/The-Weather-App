@@ -46,30 +46,47 @@ body {
 
 }
 
-/* Temperature-section */
+/* weather &Temperature-section */
 
-.temperature {
+.weather {
     display: flex;
-    /* justify-content: space-around; */
-}
-
-.degree-section {
-    padding-right: 8rem;
-}
-
-.temperature-degree {
-    font-size: 3.5rem;
 
 }
 
-.temperature-description-0 {
-    font-size: 1.0rem;
-}
-
-.temperature-name {
-    font-size: 1.0rem;
+.weather-section {
+    padding-right: 7rem;
+    /* border-left: 0.5px solid #9999; */
 }
 
 .temperature-description {
+    font-size: 1.2rem;
+}
+
+.temperature-degree {
+    font-size: 3.8rem;
+
+}
+
+.degree-section2 span {
+    margin: 1rem;
+    font-size: 3.0rem;
+}
+
+.degree-section2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.degree-section {
+    cursor: pointer;
+}
+
+.weather-description-1 .weather-description-2 .weather-description-3 {
     font-size: 1.5rem;
+}
+
+.weather-name {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
 }
