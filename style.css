@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    width: 90%;
+    margin: 5.2rem auto;
+}
+
+/*setting the background image with img tag*/
+
+.weather-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.weather-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header {
+    font-size: 0.8rem;
+}
+
+.btn {
+    padding: 0.3rem 1.8rem;
+    background-color: rgb(224, 154, 24);
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/*location and time-zone*/
+
+.location {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.location-timezone {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.location-name {
+    font-size: 2.8rem;
+}
+
+/* Weather & Temperature-section */
+
+.weather {
+    display: flex;
+    /* width: 100px; */
+    margin: 0 -5px;
+    opacity: 5;
+}
+
+.weather-section {
+    padding-right: 6rem;
+    /* margin: 0 3.5rem; */
+    /* border-left: 0.5px solid #9999; */
+}
+
+.temperature-description {
+    font-size: 1.2rem;
+}
+
+.temperature-degree {
+    font-size: 3.8rem;
+}
+
+.degree-section2 span {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.degree-section2 {
+    display: flex;
+    align-items: center;
+}
+
+.degree-section {
+    cursor: pointer;
+}
+
+.weather-description-1,
+.weather-description-2,
+.weather-description-3 {
+    font-size: 2.0rem;
+}
+
+.weather-name {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+/* ------------ Mobile View: When the screen size is 800px or lower do this: ------------*/
+@media screen and (max-width: 800px) {
+
+    .weather {
+        display: block;
+    }
+
+}

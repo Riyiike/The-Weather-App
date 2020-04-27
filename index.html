@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">-->
+    <!--- <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+</head>
+
+<body>
+    <section class="weather-container">
+        <img src="./img/Wea-804.jpg" alt="weather" class="weather-img">
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="left-nav">
+                        <h1 class="nav-header">Acuweather</h1>
+                    </div>
+                    <div class="right-nav">
+                        <button class="btn">ELCANAR</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="notification"></div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="showcase">
+                    <div class="location">
+                        <h2 class="location-timezone">Timezone</h2>
+                        <p class="location-name">Elcanar</p>
+                    </div>
+                </div>
+
+
+                <div class="weather">
+                    <div class="temperature">
+                        <div class="weather-section">
+                            <div class="degree-section">
+                                <div class="degree-section2">
+                                    <h2 class="temperature-degree">34</h2><span>F</span>
+                                </div>
+                                <div class="temperature-description">Feels like 7</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="weather-section">
+                        <h2 class="weather-name">Cloud</h2>
+                        <p class="weather-description-1">40%</p>
+                    </div>
+
+                    <div class="weather-section">
+                        <h2 class="weather-name">Wind</h2>
+                        <p class="weather-description-2">8km/hr</p>
+                    </div>
+
+                    <div class="weather-section">
+                        <h2 class="weather-name">Humidity</h2>
+                        <p class="weather-description-3">5%</p>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </section>
+
+</body>
+<script src="app.js"></script>
+
+</html>
