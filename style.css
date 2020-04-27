@@ -5,13 +5,13 @@
 }
 
 body {
-    color: #ffff;
+    color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .container {
     width: 90%;
-    margin: 5.2rem auto;
+    margin: 5.8rem auto;
 }
 
 /*setting the background image with img tag*/
@@ -26,7 +26,7 @@ body {
 .weather-img {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 140%;
     top: 0;
     bottom: 0;
     z-index: -1;
@@ -53,8 +53,17 @@ body {
 /*location and time-zone*/
 
 .location {
-    padding-top: 8rem;
+    padding-top: 7rem;
     padding-bottom: 3rem;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 .location-timezone {
@@ -73,16 +82,27 @@ body {
     /* width: 100px; */
     margin: 0 -5px;
     opacity: 5;
+
 }
 
 .weather-section {
     padding-right: 6rem;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
     /* margin: 0 3.5rem; */
     /* border-left: 0.5px solid #9999; */
 }
 
 .temperature-description {
     font-size: 1.2rem;
+
 }
 
 .temperature-degree {
