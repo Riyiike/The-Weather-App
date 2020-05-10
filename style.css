@@ -129,4 +129,8 @@ body {
   .weather {
     display: block;
   }
+
+  .weather-section {
+    padding-bottom: 6rem;
+  }
 }
