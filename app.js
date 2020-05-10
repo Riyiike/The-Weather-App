@@ -33,7 +33,12 @@ window.addEventListener('load', () => {
         })
         .then((result) => {
           console.log(result);
-          const { temp, description, timezone, datetime } = result;
+          const {
+            temp,
+            description,
+            timezone,
+            datetime
+          } = result;
 
           //set DOM Elements from the API data
 
