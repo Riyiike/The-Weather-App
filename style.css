@@ -8,6 +8,7 @@ body {
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url(./img/Wea-301.jpg);
+  background-size: cover;
 }
 
 .container {
@@ -46,7 +47,7 @@ body {
   font-size: 0.8rem;
 }
 
-.btn {
+.nav-header2 {
   padding: 0.3rem 1.8rem;
   background-color: rgb(224, 154, 24);
   font-size: 0.8rem;
@@ -130,7 +131,24 @@ body {
     display: block;
   }
 
+  body {
+    background-size: cover;
+    background-image: url(./img/Wea-301.jpg);
+    font-size: 3vw;
+    /* overflow: hidden; */
+  }
+
+  .location {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .nav-header2 {
+    display: none;
+  }
+
   .weather-section {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
+
   }
 }
